@@ -7,14 +7,21 @@ using std::string;
 
 void Account::add(unsigned int tpounds, unsigned int tpence)
 {
+	//std::unique_lock<std::mutex> lockName(classMutex);
+
+	classMutex.lock();
+
 	pounds_ += tpounds;
 	pence_ += tpence;
+	
 
 	// Ensure pence_ stays in the range 0-99.
 	if (pence_ >= 100) {
 		pounds_++;
 		pence_ -= 100;
 	}
+
+	classMutex.unlock();
 }
 
 string Account::total()

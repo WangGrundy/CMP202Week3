@@ -1,7 +1,7 @@
-﻿  locking.cpp
+﻿  account.cpp
   Generating code
-  43 of 158 functions (27.2%) were compiled, the rest were copied from previous compilation.
-    1 functions were new in current compilation
-    2 functions had inline decision re-evaluated but remain unchanged
+  3 of 186 functions ( 1.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  locking.vcxproj -> C:\Users\Wang Grundy\Documents\Uni work\CMP202\week3\locking\x64\Release\locking.exe
+  locking.vcxproj -> M:\CMP202\week3\CMP202Week3\x64\Release\locking.exe
